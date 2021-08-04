@@ -126,7 +126,7 @@ namespace Microsoft.eShopWeb.PublicApi
                                       builder.AllowAnyOrigin();
                                       builder.AllowAnyMethod();
                                       builder.AllowAnyHeader();
-                                      builder.AllowCredentials();
+                                      //builder.AllowCredentials();
                                   });
             });
 
