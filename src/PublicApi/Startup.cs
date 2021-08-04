@@ -123,10 +123,10 @@ namespace Microsoft.eShopWeb.PublicApi
                                   builder =>
                                   {
                                       //builder.WithOrigins(baseUrlConfig.WebBase.Replace("host.docker.internal", "localhost").TrimEnd('/'));
-                                      builder.AllowAnyOrigin();
+                                      //builder.AllowAnyOrigin();
                                       builder.AllowAnyMethod();
                                       builder.AllowAnyHeader();
-                                      //builder.AllowCredentials();
+                                      builder.AllowCredentials();
                                   });
             });
 
